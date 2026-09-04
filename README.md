@@ -7,9 +7,9 @@
 
 ## 📌 Sobre o projeto
 
-A Calculadora de Consumo de Energia é um programa desenvolvido para estimar o consumo mensal de energia elétrica de um aparelho a partir de sua potência e do tempo médio de uso diário.
+A **Calculadora de Consumo de Energia** é um programa desenvolvido para estimar o consumo mensal de energia elétrica de um aparelho a partir da potência informada e do tempo médio de uso diário.
 
-Além do consumo em kWh, o programa também apresenta uma estimativa do custo mensal utilizando uma tarifa fixa de R$ 0,75 por kWh.
+Além do consumo em kWh, o sistema apresenta uma estimativa de custo mensal utilizando uma tarifa fixa de **R$ 0,75 por kWh**.
 
 ## 🧮 Fórmula utilizada
 
@@ -30,6 +30,12 @@ Para calcular o custo mensal estimado, o programa utiliza:
 custoMensal = consumoMensal * 0.75
 ```
 
+## 🧠 Evolução do projeto
+
+O projeto foi iniciado em **VisuAlg**, com a criação da lógica principal do algoritmo. Depois, essa lógica foi adaptada para **Python**, mantendo a mesma ideia de entrada de dados, validação e cálculo do consumo.
+
+Essa etapa mostra a evolução do raciocínio lógico para a implementação em uma linguagem de programação.
+
 ## 🛠️ Tecnologias utilizadas
 
 - Visualg
@@ -37,19 +43,20 @@ custoMensal = consumoMensal * 0.75
 - Git
 - GitHub
 
-## 🧠 Desenvolvimento do algoritmo
-
-Antes da implementação em Python, o algoritmo foi planejado em Visualg. Essa etapa ajudou a organizar a lógica do programa, definindo as variáveis, a entrada de dados, a estrutura de decisão e a fórmula utilizada para calcular o consumo mensal.
-
-Depois dessa construção inicial, a lógica foi adaptada para Python, utilizando `float` para trabalhar corretamente com números decimais e cálculos com divisão.
-
 ## 📂 Estrutura do projeto
 
 ```text
 consumo-energia/
+├── algoritmo_visualg.alg
 ├── app.py
 └── README.md
 ```
+
+## 📄 Arquivos principais
+
+- `algoritmo_visualg.alg`: versão inicial da lógica feita em VisuAlg.
+- `app.py`: versão final do programa desenvolvida em Python.
+- `README.md`: documentação do projeto.
 
 ## ▶️ Como executar
 
