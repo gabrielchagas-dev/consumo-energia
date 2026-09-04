@@ -32,14 +32,21 @@ custoMensal = consumoMensal * 0.75
 
 ## 🛠️ Tecnologias utilizadas
 
+- Visualg
 - Python 3.x
 - Git
 - GitHub
 
+## 🧠 Desenvolvimento do algoritmo
+
+Antes da implementação em Python, o algoritmo foi planejado em Visualg. Essa etapa ajudou a organizar a lógica do programa, definindo as variáveis, a entrada de dados, a estrutura de decisão e a fórmula utilizada para calcular o consumo mensal.
+
+Depois dessa construção inicial, a lógica foi adaptada para Python, utilizando `float` para trabalhar corretamente com números decimais e cálculos com divisão.
+
 ## 📂 Estrutura do projeto
 
 ```text
-consumo_energia/
+consumo-energia/
 ├── app.py
 └── README.md
 ```
