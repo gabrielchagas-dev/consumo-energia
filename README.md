@@ -92,4 +92,6 @@ Tarifa utilizada no cálculo: R$ 0,75 por kWh
 
 ## 👨‍💻 Autor
 
+Gabriel das Chagas Silva
+
 Projeto desenvolvido para atividade acadêmica de Desenvolvimento de Sistemas.
